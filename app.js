@@ -54,6 +54,7 @@ buttons.forEach((button)=>{
           }
         });
       });
+      //Used ChatGPT to help learn and understand about switch statements to replace if...else statements
     
 /*-------------------------------- Functions --------------------------------*/
 function calculate(num1, op, num2) { //Declaring our function with switch statement inside the code block

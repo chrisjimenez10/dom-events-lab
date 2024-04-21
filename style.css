@@ -1,3 +1,14 @@
+@keyframes background {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
 * {
     box-sizing: border-box;
   }
@@ -7,6 +18,7 @@
     align-items: center;
     justify-content: center;
     font-family: system-ui, sans-serif;
+    background-color: hsla(347, 72%, 46%, 0.43);
   }
   
   .display {
@@ -22,6 +34,7 @@
   }
   
   .calculator {
+    animation: background 4s ease 0s 1 normal forwards;
     padding: 24px;
     width: 300px;
     height: 400px;
